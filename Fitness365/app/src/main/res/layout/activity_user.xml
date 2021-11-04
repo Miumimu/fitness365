@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DF59064D"
+    android:orientation="horizontal"
+    android:layout_marginBottom="5sp"
+    android:layout_marginLeft="2sp"
+    android:layout_marginRight="5sp"
+    android:layout_marginTop="0sp"
+    tools:context=".ui.UserActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today's WorkOut"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Diet Chart"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="255dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="115dp"
+        android:layout_marginLeft="165dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="200dp"
+            android:id="@+id/MyProfile"
+            android:layout_height="180dp"
+            android:layout_marginTop="135dp"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/fe39fcf9fa74d5d9c910f52ad12b"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="90dp"
+            android:scaleType="fitCenter"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/viewWorkOut"
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="1dp"
+            android:src="@drawable/be92e2fc2ea1db67ff9c236d9a141cb4"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:scaleType="fitCenter"/>
+        <ImageButton
+            android:id="@+id/viewDietchart"
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/logoj"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:scaleType="fitCenter"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/user_log_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="150dp"
+        android:text="Log Out"
+        />
+
+</RelativeLayout>

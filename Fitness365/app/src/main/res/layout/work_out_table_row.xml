@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/work_out_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:padding="18dp"/>
+        <TextView
+            android:id="@+id/work_out_time_of_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:padding="18dp"/>
+        <TextView
+            android:id="@+id/work_out_exercise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:padding="18dp"/>
+        <Button
+            android:id="@+id/work_out_remove"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="x"/>
+    </TableRow>
+</RelativeLayout>

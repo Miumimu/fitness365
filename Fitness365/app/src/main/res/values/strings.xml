@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Fitness365</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="address">Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="chose_user_type">Chose User Type</string>
+    <string name="admin">Admin</string>
+    <string name="user">User</string>
+    <string name="save">Save</string>
+</resources>

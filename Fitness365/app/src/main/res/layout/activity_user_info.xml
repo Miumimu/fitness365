@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#37225C"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    tools:context=".ui.UserInfoActivity">
+    <TextView
+        android:id="@+id/user_info_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:id="@+id/user_info_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:id="@+id/user_info_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Height"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:id="@+id/user_info_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:id="@+id/user_info_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:id="@+id/user_info_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/user_info_diet_chart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Set Diet Chart" />
+
+    <Button
+        android:id="@+id/user_info_work_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Set Work Out Routine" />
+
+
+
+</LinearLayout>
