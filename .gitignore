@@ -50,17 +50,12 @@ Thumbs.db
 
 
 *.iml
-fitness365/.gradle
-fitness365/local.properties
-fitness365/.idea/caches
-fitness365/.idea/libraries
-fitness365/.idea/modules.xml
-fitness365/.idea/workspace.xml
-fitness365/.idea/navEditor.xml
-fitness365/.idea/assetWizardSettings.xml
-fitness365/.DS_Store
-fitness365/build
-fitness365/captures
-fitness365/.externalNativeBuild
-fitness365/.cxx
+.gradle
+local.properties
+.idea/*
+.DS_Store
+build
+captures
+.externalNativeBuild
+.cxx
 
